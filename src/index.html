@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+   <script  src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+
+    <link rel="stylesheet" href="src/style.css">
+    
+    
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Tiro+Bangla:ital@0;1&display=swap');
+</style>
+
+    <title>Weather</title>
+    
+    <script
+      src="https://kit.fontawesome.com/529b85d036.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:wght@200&family=Tiro+Bangla:ital@0;1&display=swap');
+</style>
+  </head>
+  <header>
+<div class="page">
+  <body>
+    <div class="search">
+    <form id="search-form"> 
+      <div class="row">
+            <div class="col-9">
+              <input
+                type="search"
+                placeholder="Type a city.."
+                autofocus="on"
+                autocomplete="off"
+                id="city-input"
+                class="form-control shadow-sm"
+              />
+            </div>
+            <div class="col-6">
+              <input
+                type="submit"
+                value="Search"
+                class="form-control btn btn-primary shadow-sm"
+              />
+            </div>
+          </div>
+
+</form></div>
+
+      <h1 id="city">Kyiv</h1>
+     
+      <div class="temp">
+     <span class="cod"><strong> Current Temperature</strong></span>
+      <br />
+     <h2></h2>
+      <br />
+      <i class="fa-solid fa-cloud-sun-rain"></i>
+       
+      <h3>
+      
+      <br/>
+        
+        
+        </h3>
+</div>
+        <div class="all">
+           
+             
+           
+               
+  <div class="row align-items-start">
+    <div class="col"> 
+      
+       <strong> 5 days forecast</strong> 
+           <strong><br/>Today<br/></strong>
+              <i class="fa-solid fa-cloud-sun-rain"></i>
+               <p>max:+25° <br/>
+                min: -12° </p></div>
+             
+    <div class="col"> <div class="col"><i class="fa-solid fa-cloud-sun-rain"></i><br/> max:+25° min:-12°<br/>Tuesday</div></div>
+    <div class="col"> <div class="col"><i class="fa-solid fa-cloud-sun-rain"></i><br/> max:+25° min:-12°<br/>Wednesday</div></div>
+      <div class="col"> <div class="col"><i class="fa-solid fa-cloud-sun-rain"></i><br/> max:+25° min:-12°<br/>Thursday</div></div>       
+<div class="col"> <div class="col"><i class="fa-solid fa-cloud-sun-rain"></i><br/> max:+25° min:-12°<br/>Friday</div></div>
+     <div class="col"><div class="col"><i class="fa-solid fa-cloud-sun-rain"></i><br/> max:+25° min:-12°<br/>Saturday</div></div>  
+               </div>
+    
+<hr/>
+<footer>
+  <div class="row align-items-start">
+   <div class="col">
+    <div class="summary"><strong>Daily Summary</strong><br/>
+<i class="fa-solid fa-cloud-sun-rain"></i><br/>
+18°<br/>
+Sunrise: 04:52
+<br/>Sunset:20:57</div></div>
+  
+  <div class="col"> <div class="col">Night<br/><i class="fa-solid fa-cloud-sun-rain"></i><br/>+18°</div></div>
+<div class="col"> <div class="col">Morning<br/><i class="fa-solid fa-cloud-sun-rain"></i><br/>+18°</div></div>
+<div class="col"> <div class="col">Day<br/><i class="fa-solid fa-cloud-sun-rain"></i><br/>+18°</div></div>
+<div class="col"> <div class="col">Evening<br/><i class="fa-solid fa-cloud-sun-rain"></i><br/>+18°</div></div>
+    
+  </div></div></div></div>
+          </div>   </div></div></div>
+           </header>
+</footer>
+  
+    <script src="src/index.js"></script>
+  </body>
+</html>
